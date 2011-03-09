@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* iDemotivationalAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 898}}";
+			sepNavSelRange = "{363, 0}";
+			sepNavVisRange = "{0, 770}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iDemotivationalAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1573}}";
+			sepNavSelRange = "{694, 9}";
+			sepNavVisRange = "{154, 2531}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iDemotivational */ = {
+		activeExec = 0;
+		executables = (
+			AC225C791327847F004A054B /* iDemotivational */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* iDemotivationalViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 898}}";
+			sepNavSelRange = "{399, 0}";
+			sepNavVisRange = "{0, 447}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* iDemotivationalViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 819}}";
+			sepNavSelRange = "{839, 0}";
+			sepNavVisRange = "{608, 296}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AC225C791327847F004A054B /* iDemotivational */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iDemotivational */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iDemotivational */,
+		);
+		codeSenseManager = AC225C8B13278486004A054B /* Code sense */;
+		executables = (
+			AC225C791327847F004A054B /* iDemotivational */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321356927;
+			PBXWorkspaceStateSaveDate = 321356927;
+		};
+		perUserProjectItems = {
+			AC225CC81327898C004A054B /* PBXTextBookmark */ = AC225CC81327898C004A054B /* PBXTextBookmark */;
+			AC225D3113279090004A054B /* PBXTextBookmark */ = AC225D3113279090004A054B /* PBXTextBookmark */;
+			AC225D7F13279380004A054B /* PlistBookmark */ = AC225D7F13279380004A054B /* PlistBookmark */;
+			AC225D8513279390004A054B /* PBXTextBookmark */ = AC225D8513279390004A054B /* PBXTextBookmark */;
+			AC225D8613279390004A054B /* PBXTextBookmark */ = AC225D8613279390004A054B /* PBXTextBookmark */;
+			AC225D8E13279721004A054B /* PBXTextBookmark */ = AC225D8E13279721004A054B /* PBXTextBookmark */;
+			AC225D901327978F004A054B /* PBXTextBookmark */ = AC225D901327978F004A054B /* PBXTextBookmark */;
+		};
+		sourceControlManager = AC225C8A13278486004A054B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AC225C791327847F004A054B /* iDemotivational */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iDemotivational;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	AC225C8A13278486004A054B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AC225C8B13278486004A054B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AC225CC81327898C004A054B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iDemotivationalViewController.h */;
+		name = "iDemotivationalViewController.h: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	AC225D3113279090004A054B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iDemotivationalViewController.m */;
+		name = "iDemotivationalViewController.m: 33";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 1472;
+		vrLoc = 0;
+	};
+	AC225D3B132791A2004A054B /* Facebook.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 7774}}";
+			sepNavSelRange = "{7900, 0}";
+			sepNavVisRange = "{7660, 463}";
+		};
+	};
+	AC225D7F13279380004A054B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iDemotivational-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/igz/Desktop/SERGIO/iDemotivational/iDemotivational-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	AC225D8513279390004A054B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC225D3B132791A2004A054B /* Facebook.m */;
+		name = "Facebook.m: 221";
+		rLen = 0;
+		rLoc = 7900;
+		rType = 0;
+		vrLen = 2852;
+		vrLoc = 6509;
+	};
+	AC225D8613279390004A054B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iDemotivationalAppDelegate.h */;
+		name = "iDemotivationalAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 0;
+	};
+	AC225D8E13279721004A054B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iDemotivationalAppDelegate.m */;
+		name = "iDemotivationalAppDelegate.m: 29";
+		rLen = 9;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 432;
+	};
+	AC225D901327978F004A054B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iDemotivationalAppDelegate.m */;
+		name = "iDemotivationalAppDelegate.m: 29";
+		rLen = 9;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 2531;
+		vrLoc = 154;
+	};
+}
