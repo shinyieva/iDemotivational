@@ -11,7 +11,7 @@
 
 @class iDemotivationalViewController;
 
-@interface iDemotivationalAppDelegate : NSObject <UIApplicationDelegate, UIImagePickerControllerDelegate, FBSessionDelegate> {
+@interface iDemotivationalAppDelegate : NSObject <UIApplicationDelegate, UIImagePickerControllerDelegate> {
     UIWindow *window;
     iDemotivationalViewController *viewController;
 	UIImagePickerController *pickerController;
@@ -20,8 +20,6 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet iDemotivationalViewController *viewController;
 @property (nonatomic, retain) IBOutlet UIImagePickerController *pickerController;
-
-@property (nonatomic, retain) Facebook *facebook;
 
 @end
 

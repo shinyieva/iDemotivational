@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SHK.h"
 
 @interface iDemotivationalViewController : UIViewController <UITextFieldDelegate>{
 	IBOutlet UIButton *shareBtn;

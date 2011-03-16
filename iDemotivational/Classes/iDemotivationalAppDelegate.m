@@ -15,8 +15,6 @@
 @synthesize viewController;
 @synthesize pickerController;
 
-@synthesize facebook;
-
 #pragma mark -
 #pragma mark Application lifecycle
 
@@ -24,15 +22,14 @@
     
     // Override point for customization after application launch.
 
-	facebook = [[Facebook alloc] initWithAppId:@"YOUR_APP_ID"];
-	
-	[facebook authorize:nil delegate:self];
-	
-    // Add the view controller's view to the window and display.
+	// Add the view controller's view to the window and display.
     [self.window addSubview:viewController.view];
 	
+#if TARGET_IPHONE_SIMULATOR
+	pickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;	
+#else
 	pickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
-	
+#endif
 	[viewController presentModalViewController:pickerController animated:NO];
     [self.window makeKeyAndVisible];
 
@@ -94,14 +91,6 @@
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
 	NSLog(@"imagePickerControllerDidCancel");
 	[pickerController dismissModalViewControllerAnimated:YES];
-}
-
-#pragma mark -
-#pragma mark Facebook Delegate
-
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-	
-    return [facebook handleOpenURL:url]; 
 }
 
 #pragma mark -

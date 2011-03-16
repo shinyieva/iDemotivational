@@ -28,7 +28,15 @@
 }
 
 - (IBAction) share :(id)sender {
+	// Create the item to share (in this example, a url)
+	NSURL *url = [NSURL URLWithString:@"http://getsharekit.com"];
+	SHKItem *item = [SHKItem URL:url title:@"ShareKit is Awesome!"];
 	
+	// Get the ShareKit action sheet
+	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+	
+	// Display the action sheet
+	[actionSheet showInView:self.view];
 }
 
 - (void) takePhoto :(UITapGestureRecognizer *)gesture {
