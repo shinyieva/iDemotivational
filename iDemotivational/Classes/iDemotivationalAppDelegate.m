@@ -26,7 +26,7 @@
     [self.window addSubview:viewController.view];
 	
 #if TARGET_IPHONE_SIMULATOR
-	pickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;	
+	pickerController.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;	
 #else
 	pickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
 #endif

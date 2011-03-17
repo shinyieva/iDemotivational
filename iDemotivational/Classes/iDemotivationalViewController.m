@@ -41,7 +41,8 @@
 
 - (void) takePhoto :(UITapGestureRecognizer *)gesture {
 	NSLog(@"takePhoto");
-	[self presentModalViewController:[[[UIApplication sharedApplication] delegate] pickerController] animated:YES];
+	[self presentModalViewController:[[[UIApplication sharedApplication] delegate] pickerController] 
+							animated:YES];
 }
 
 #pragma mark -
